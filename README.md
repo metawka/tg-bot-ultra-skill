@@ -11,6 +11,19 @@ A Claude Code skill for building Telegram bots on Bot API 10.x: rich messages wi
 - Bot profile setup through the Bot API: name, descriptions, commands, menu button, photo.
 - `botfather` MCP server: creates bots, fetches tokens into `.env`, walks BotFather menus. It can access only the @BotFather chat; deleting bots, revoking tokens and transferring ownership are blocked.
 
+## Examples
+
+Screens built with the skill's patterns on a test bot (Telegram Desktop, dark theme).
+
+| | | |
+|---|---|---|
+| ![Order card](docs/screenshots/order.png) | ![Product card](docs/screenshots/product-card.png) | ![Catalog grid](docs/screenshots/catalog-grid.png) |
+| Order card: status heading, field table, colored buttons | Product card: specs table, expandable review, button rows | Catalog: 2×N grid with a highlighted action |
+| ![Search results](docs/screenshots/search.png) | ![Catalog groups](docs/screenshots/catalog-groups.png) | ![Map](docs/screenshots/map.png) |
+| Search: highlighted matches, number buttons | Catalog: groups with item buttons inside | Delivery: map block with a caption |
+| ![Collapsed specs](docs/screenshots/product-collapsed.png) | ![Warning](docs/screenshots/warning.png) | ![Rating](docs/screenshots/rating.png) |
+| Collapsed specs, main action on its own row | Warning with details in a collapsible block | Rating row, best score in green |
+
 ## Requirements
 
 - Claude Code
@@ -83,6 +96,7 @@ Claude creates the bot, asks you to press Start in it, runs the interview with p
 | `skills/telegram-bots/assets/icon-roles.json` | Icon ids by meaning |
 | `mcp/botfather/` | MCP server and sign-in window |
 | `install.py` | Installer |
+| `docs/screenshots/` | Screenshots used in this README |
 
 ## License
 
