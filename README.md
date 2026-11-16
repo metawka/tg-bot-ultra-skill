@@ -33,6 +33,18 @@ Screens built with the skill's patterns on a test bot (Telegram Desktop, dark th
 
 ## Installation
 
+### Ask your agent
+
+Paste this into Claude Code (or any coding agent that can run commands):
+
+```text
+Install this skill: https://github.com/metawka/tg-bot-ultra-skill
+```
+
+The agent clones the repository, runs `install.py`, and tells you when to restart.
+
+### Command line
+
 ```bash
 git clone https://github.com/metawka/tg-bot-ultra-skill.git
 cd tg-bot-ultra-skill
