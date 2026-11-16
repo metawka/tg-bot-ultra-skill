@@ -1,0 +1,7 @@
+.env
+.project-status.md
+lab/data/state.json
+__pycache__/
+.venv/
+lab/
+notes/

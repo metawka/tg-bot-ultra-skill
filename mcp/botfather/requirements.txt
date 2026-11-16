@@ -1,0 +1,4 @@
+telethon==1.45.0
+qrcode==8.2
+pillow
+mcp==2.3.0
